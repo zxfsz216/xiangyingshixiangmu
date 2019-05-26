@@ -1,5 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .head{
     width: 100%;
-    height: 50px;
+    height: 37px;
     background-color: black;
+}
+.head .head_1{
+    width: 70%;
+    height: 37px;
+    background-color:black;
+    margin: 0 auto;
+}
+.head .head_1 ul {
+    float: right;
+    display: inline-block;
+    height: 37px;
+    line-height: 37px;
+}
+.head .head_1 ul li{
+    list-style: none;
+    float: left;
+    
+}
+.head .head_1 ul li a{
+    height: 37px;
+    color: white;
+    display: inline-block;
+    line-height: 37px;
+    text-decoration: none;
+}
+
+.nav{
+   padding-top:20px; 
+    width: 100%;
+    margin: 0 auto;
+}
+.nav_1{
+    float: left;
+}
+.nav_2{
+    width: 100%;
+}
+.nav_2 ul{
+  margin-top:29px;
+    float: right;
+    /* display: inline-block; */
+}
+.nav_2 ul li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    color: #000;
+    /* background-color: red; */
+    text-align: center;
+    height: 77px;
+    width: 108px;
+    line-height:78px; 
+}
+.nav_2 ul .active{
+        background-color: black;
+        color: white;
+}
+#sp1{
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    background-color: red;
+    /* margin-right:100px; */
+   
+    position: absolute;
+      right:0;
+      top:90px;
+      display: none;
+}
+#container {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+#photo {
+    width: 100%;
+    height: auto;
+	animation: switch 5s ease-out infinite;
+}
+ 
+#photo  img {
+	float: left;
+	width: 100%;
+    height: 500px;
+    display: inline-block;
+}
+ 
+ @keyframes switch {
+    from{
+ 
+        margin-left:200%;
+    }
+    to{
+
+        margin-left:-100%;
+    } 
+}
+.content{
+    width:100%;
+}
+.content_1{
+    width: 70%;
+    margin: 0 auto;
 }
