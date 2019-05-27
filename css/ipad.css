@@ -12,3 +12,43 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.content .content_1 .img{
+  display: none;
+}
+
+.content .content_1 .video{
+width: 100%;
+margin-left:0;
+}
+.content .content_1 .video .video1{
+  width:80%;
+}
+.content2 {
+display: none;
+}
+.content4{
+  width: 100%;
+  text-align: center;
+}
+.content4 .content4_1 {
+  width: 100%;
+  text-align: center;
+}
+.content7 .content7_1  .content7_1_1{
+  width:100%;
+}
+.content7 .content7_1  .content7_1_1 img{
+  width:50%;
+}
+.content7 .content7_1 .content7_1_2{
+  width:100%;
+  margin-left:0px; 
+ 
+}
+.content7 .content7_1 .content7_1_2 img{
+  width:40%; 
+}
+
+
+
+

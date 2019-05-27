@@ -46,7 +46,7 @@
 .nav_2 ul{
   margin-top:29px;
     float: right;
-    /* display: inline-block; */
+    /* display: none; */
 }
 .nav_2 ul li{
     display: inline-block;
@@ -136,7 +136,7 @@
       margin-top:20px; 
         width: 100%;
         background-color: rgb(228, 239, 245);
-        height: 440px;
+       overflow: hidden;
   }
   .content .content_1{
       width: 1100px;
@@ -178,6 +178,7 @@
     height: 500px;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
   }
   .content2 .content_2 span{
     display: block;
@@ -213,12 +214,15 @@
   }
   .content4{
     width:100%;
+    /* overflow: hidden; */
   }
   .content4 .content4_1{
-      width:1100px ;
+      width:70%;
       font-size:0.9em;
       text-align:center;
       margin: 0 auto;
+      overflow: hidden;
+
 
   }
   .content4 .content4_1 span{
@@ -230,4 +234,110 @@
     text-transform: uppercase;
  
   }
+  .content4 .content4_1 ul li img{
+    width: 259px;
+    height: 233px;
+  }
+  .content4 .content4_1 ul li{
+      list-style: none;
+      float: left;
+      margin-left:15px; 
 
+  }
+  .content5{
+    width:100%;
+  }
+  .content5 .content5_1{
+      width:1100px ;
+      font-size:0.9em;
+      text-align:center;
+      margin: 0 auto;
+
+  }
+  .content5 .content5_1 span{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    letter-spacing: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+ 
+  }
+  .content6 {
+    width:80%;
+    font-size:0.9em;
+    margin: 0 auto;
+  }
+  .content6 ul{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+  }
+  .content6 ul li{
+    position: relative;
+    display: inline-block;
+    margin: 30px 0 10px 91px;
+    padding-left: 60px;
+    width: 418px;
+    height: 116px;
+    border: 1px solid #9ba5ae;
+  }
+  .content6 ul li i{
+    position: absolute;
+    left: -47px;
+    top: 13px;
+    font-style: normal;
+    display: block;
+    width: 94px;
+    height: 90px;
+    color: #000;
+    background: url(../img/icon.png);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+  .content6 ul li i span{
+    font-size: 15px;
+  }
+  .content7{
+    width:100%;
+    background-color: rgb(228, 238, 245)
+  }
+  .content7 .content7_1{
+      width:1100px;
+      font-size:0.9em;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+  .content7 .content7_1 div{
+    float: left;
+  }
+  .content7 .content7_1  .content7_1_1{
+    width:50%;
+  }
+  .content7 .content7_1  .content7_1_1 img{
+    width:100%;
+  }
+  .content7 .content7_1 .content7_1_2{
+    width:40%;
+    margin-left:20px; 
+   
+  }
+  .content7 .content7_1 .content7_1_2 img{
+    width:100%; 
+  }
+  .foot{
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 1em;
+  }
+  .foot p{
+    width:100%;
+    text-align: center;
+  }
+  

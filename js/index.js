@@ -1,19 +1,13 @@
-// function $(id){
-//     return document.getElementById(id);
-// }
-// var sp1=$("sp1");
-// var nav_2=$("nav_2");
-// var lock=flase;
-// if(!lock){
-//     sp1.onclick=function(){
-//         nav_2.style.display="block";
-//         lock=true;
-//     }
-// }else{
-//     lock=flase; 
-// }
-//轮播
+
 $(function () {
+    $("#sp1").bind("click touchstart",function(){
+        if($(".nav-stacked").is(":visible")){
+            $(".nav-stacked").slideUp();
+            console.log("1111");
+        }else{
+            $(".nav-stacked").slideDown();
+        }
+    });
     var index = 0;
     // 公用函数
     function wer(){  
@@ -21,7 +15,6 @@ $(function () {
         $('.bg').stop(true).animate({'left':-index*$('.bg li').width()},1000);
         $('i').eq(index).addClass('on').siblings().removeClass('on');
     }
-    // 下一张
     function fun(){
         index++;
         if (index == $('.bg li').length) {
@@ -30,7 +23,6 @@ $(function () {
         wer();	
     }
     $('.next').click(fun)
-    // 上一张
     $('.prew').click(function(){
         index--;
         if (index < 0) {
@@ -43,10 +35,8 @@ $(function () {
         $index = $(this).index();//获取对应的索引值
         //设置导航按钮样式
         $(this).addClass('on').siblings().removeClass('on');
-        //设置图片移动动画
         $('.bg').stop(true).animate({'left':-$index * $('.bg li').width()},1000);
     })
-    // 划上清除定时器 划出启动
     $('.box').hover(
         function(){
             clearInterval(time);
