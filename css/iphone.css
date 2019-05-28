@@ -24,3 +24,38 @@
       display:block;
       
 }
+.content .content_1 .img{
+    display: none;
+  }
+  
+  .content .content_1 .video{
+  width: 100%;
+  margin-left:0;
+  }
+  .content2 {
+    display: none;
+    }
+    .content5 .content5_1{
+        width:100%;
+        text-align: center;
+    }
+    .content6 ul li{
+        width: 100%;
+        margin: 0;
+    }
+    .content7 .content7_1  .content7_1_1{
+        width:100%;
+      }
+      .content7 .content7_1  .content7_1_1 img{
+        width:30%;
+      }
+      .content7 .content7_1 .content7_1_2{
+        width:100%;
+        margin-left:0px; 
+       
+      }
+      .content7 .content7_1 .content7_1_2 img{
+        width:30%; 
+      }
+      
+      
