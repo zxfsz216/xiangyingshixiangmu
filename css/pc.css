@@ -63,17 +63,24 @@
         background-color: black;
         color: white;
 }
+@font-face{
+	font-family: "zidingyi";
+	src: url("fonts/icomoon.eot");
+	src: url("fonts/icomoon.eot?iefix") format("fonts/embedded-opentype"),url("fonts/icomoon.woff") format("woff"),url("fonts/icomoon.ttf") format("'truetype'"),url("fonts/icomoon.svg#zidingyi") format("svg");
+}
 #sp1{
     display: inline-block;
     width:50px;
     height: 50px;
-    background-color: red;
+    /* background-color: red; */
     /* margin-right:100px; */
-   
     position: absolute;
       right:0;
       top:90px;
       display: none;
+}
+#sp1::before{
+  content: "\e9ba";
 }
 /* //轮播 */
 .box{
